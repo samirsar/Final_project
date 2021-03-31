@@ -199,7 +199,7 @@ body
     /* text-align: center; */
     justify-content: center;
     align-items: center;
-    height: 705px;
+    height: 855px;
 }
 
 .services h1
@@ -221,7 +221,7 @@ body
 {
     .services
     {
-        height: 1287px;
+        height: 1661px;
     }
     .services_container
     {
@@ -250,10 +250,11 @@ body
 }
 .services_card1
 {
-    height: 476px;
+    height: 615px;
     width: 332px;
     /* border: 2px solid white; */
     background: url('../image/pic3.jpg') no-repeat center/cover;
+    background-size: 198px;
     
 }
 .services_card1:hover{
@@ -264,7 +265,7 @@ body
 .services_card1 .services_card11
 {
     /* border: 2px solid white; */
-    height: 154px;
+    height: 193px;
     width: 267px;
     /* padding-top: 270px; */
     margin-top: 290px;
@@ -272,10 +273,11 @@ body
 }
 .services_card2
 {
-    height: 476px;
+    height: 615px;
     width: 332px;
     /* border: 2px solid white; */
     background: url('../image/pic4.jpg') no-repeat center/cover;
+    background-size: 198px;
 }
 .services_card2:hover{
     transform: scale(1.075);
@@ -285,17 +287,18 @@ body
 .services_card2 .services_card21
 {
     /* border: 2px solid white; */
-    height: 154px;
+    height: 193px;
     width: 267px;
     /* padding-top: 270px; */
     margin-top: 290px;
     margin-left: 22px;
 }
-.services_card1 button
+.services_card1 .services_card11 button
 {
+    /* border: 2px solid white; */
     font-size: 1rem;
     border-radius: 21px;
-    padding: 10px 53px;
+    padding: 13px 45px;
     border: none;
     color:white;
     cursor: pointer;
@@ -306,15 +309,19 @@ body
     transition: all 0.35s;
     outline: none
 }
-.services_card1 button a{
+.services_card1 .services_card11 button a{
     text-decoration: none;
     color: white;
 }
-.services_card2 button
+.services_card1 .services_card11 button:hover
+{
+    background-image: linear-gradient(to top, #1856dd 0%, #fe5196 100%);
+}
+.services_card2 .services_card21 button
 {
     font-size: 1rem;
     border-radius: 21px;
-    padding: 10px 53px;
+    padding: 13px 45px;
     border: none;
     color:white;
     cursor: pointer;
@@ -325,11 +332,11 @@ body
     transition: all 0.35s;
     outline: none
 }
-.services_card2 button a{
+.services_card2 .services_card21 button a{
     text-decoration: none;
     color: white;
 }
-.services_container button:hover
+.services_card2 .services_card21 button:hover
 {
     background-image: linear-gradient(to top, #1856dd 0%, #fe5196 100%);
 }
@@ -338,13 +345,13 @@ body
 {
     .services_card1
     {
-        height: 479px;
+        height: 599px;
     width: 220px;
     }
     .services_card2
     {
 
-        height: 479px;
+        height: 599px;
     width: 220px;
     }
     .services
@@ -362,7 +369,7 @@ body
     }
     .services_card2 .services_card21
     {
-        height: 154px;
+        height: 154px; 
     width: 186px;
     }
     
@@ -412,7 +419,7 @@ body
 @media screen and (max-width:622px)
 {
     .services{
-        height: 1381px;
+        height: 1661px;
     }
     
     .footer__container
@@ -498,7 +505,7 @@ body
     /* border: 2px solid; */
     color: white;
     height: 63px;
-    width: 291px;
+    width: 235px;
     padding-top: 15px;
     text-align: center;
 }
@@ -506,7 +513,7 @@ body
 {
     /* border: 2px solid; */
     height: 63px;
-    width: 291px;
+    width: 46px;
     padding-top: 15px;
     align-items: center;
     text-align: center;
@@ -515,7 +522,7 @@ body
 {
     .footer__section
     {
-        height: 213px;
+        height: 334px;
     }
     .social__media__wrap
     {
